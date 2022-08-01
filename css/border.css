@@ -1,0 +1,19 @@
+.border-style-1 {
+    border: 1px solid black;
+  }
+  .border-style-2 {
+    border-bottom: 1px solid red;
+  }
+  .border-style-3 {
+    border: 1px solid gray;
+    border-radius: 16px;/*baraye kaj shdan goshe ha*/
+    border-style: dashed;
+  }
+  .border-style-4 {
+    background-color: #a691f5cc;
+    border-left: 6px solid #2196F3;
+    border-right: none;
+    border-top: none;
+    border-bottom: hidden-border;
+    border-style: double;
+  }

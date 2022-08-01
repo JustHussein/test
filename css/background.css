@@ -1,0 +1,28 @@
+.background-opacity-100{
+    background-color: rgba (20, 158, 207 , 1);
+
+}
+
+.background-opacity-60{
+    background-color: rgba (20, 158, 207 , 0.6);
+}
+
+.background-opacity-30{
+    background-color: rgba (20, 158, 207 , 0.3);
+}
+
+.background-opacity-10{
+    background-color: rgba (20, 158, 207 , 0.1);
+}
+
+.background-image{
+    background-image: url("/images/5.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: local;
+}
+
+.background-shorthand {
+    background: background-color background-image background-repeat background-attachment background-position
+}

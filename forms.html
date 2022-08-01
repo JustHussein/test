@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form1</title>
+    </head>
+  <body dir="rtl">
+    <nav>
+        <a href="./index.html">خانه</a>
+    </nav>
+    <form action="/login.php" method="post" novalidate>
+        <label for="username">نام کاربری</label><br />
+        <input id="username" name="username" placeholder="hamid" type="text"/><br />
+        <label for="password">رمز عبور</label><br />
+        <input id="password" name="password" type="password" /><br /><br/><br/>
+   
+
+        <input type="radio" id="advance" name="level" value="advance" />
+        <label for="advance">پیشرفته</label><br />
+        <input type="radio" id="intermediate" name="level" value="intermediate" />
+        <label for="intermediate">متوسط</label><br />
+        <input type="radio" id="basic" name="level" value="basic" />
+        <label for="basic">مبتدی</label><br/><br/><br/>
+
+
+        <input type="checkbox" id="javascript" name="lang" value="javascript" />
+        <label for="javascript">JavaScript</label><br />
+        <input type="checkbox" id="php" name="lang" value="php" />
+        <label for="php">PHP</label><br />
+        <input type="checkbox" id="python" name="lang" value="python" />
+        <label for="python">Python</label><br/><br/><br/>
+
+        <label for="email">آدرس ایمیل</label>
+        <input type="email" id="email" name="email" placeholder="email@domain.com"/><br/><br/><br/>
+
+        <label for="cv">فایل رزومه</label>
+        <input type="file" id="cv" name="cv"><br/><br/><br/>
+
+        <label for="age">سن</label>
+        <input type="number" id="age" name="age"><br/><br/><br/>
+
+        <label for="volume">میزان صدا</label>
+        <input type="range" id="volume" name="volume" /><br/><br/><br/>
+
+
+        <label for="readonly">حالت readonly</label><br />
+        <input type="text" id="readonly" name="readonly" value="readonly" readonly /><br />
+        <label for="disabled">حالت disabled</label><br />
+        <input type="text" id="disabled" name="disabled" value="disabled"  disabled /><br/><br/><br/>
+
+        <label for="name">نام</label><br />
+        <input type="text" id="name" name="name" size="50" maxlength="50" required/><br/><br/><br/>
+
+        <label for="age">سن</label><br />
+        <input type="number" id="age" name="age" min="18" max="50" step="1"/><br/><br/><br/>
+
+        <select id="langs" name="langs" multiple>
+            <option value="js">جاوااسکریپت</option>
+            <option value="cpp" selected>سی پلاس پلاس</option>
+            <option value="dart">دارت</option>
+            <option value="python">پایتون</option>
+        </select><br/><br/><br/>
+
+        <label for="description"> توضیحات</label><br/>
+        <textarea
+        id="description"
+        name="description"
+        rows="10"
+        cols="30"
+        placeholder="توضیحات"
+        ></textarea><br/><br/><br/>
+
+
+        <input list="langs" name="lang" placeholder="زبان برنامه نویسی" />
+        <datalist id="langs">
+          <option value="js">جاوااسکریپت</option>
+          <option value="cpp">سی پلاس پلاس</option>
+          <option value="dart">دارت</option>
+          <option value="python">پایتون</option>
+        </datalist><br/><br/><br/>
+
+  
+
+
+        <button type="submit">ثبت</button>
+
+    </form>
+
+
+  </body>
+</html>

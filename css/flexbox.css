@@ -1,0 +1,10 @@
+.Parent{
+    background-color: darkcyan;
+
+}
+
+.Child{
+    background-color: darkgoldenrod;
+    margin: 15px;
+    padding: 10px;
+}
